@@ -1,4 +1,8 @@
-body{ 
+html, body {
+  touch-action: manipulation;
+  font-size: 16px; /* Avoid iOS auto-zoom */
+}
+.body{ 
     background-color: rgba(0, 0, 0, 0.899);
     width: 100%;
     max-width: 1200px;
